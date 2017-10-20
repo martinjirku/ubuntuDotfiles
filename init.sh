@@ -17,13 +17,15 @@ echo "COPY your public key and place it to githubkeys here: https://github.com/s
 echo 
 echo
 
-cat ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
 
 echo
 echo
+echo "Write \"github\", when you are done > "
 while [ "$submittedToGithub" != "github" ]; do
 	read submittedToGithub
 done
+
 
 echo "preparing apt-get dependencies, please provid user informations..."
 # installing add-apt-repository command
