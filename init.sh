@@ -5,6 +5,9 @@ DOT_REPOSITORY="git@github.com:martinjirku/ubuntuDotfiles.git"
 echo "entering the home directory at ~/..."
 cd ~
 
+echo "setting up locale"
+sudo update-locale LC_ALL="en_US.UTF-8"
+
 echo "preparing ssh keys..."
 echo "  - generating new key"
 ssh-keygen -t rsa -b 4096 -C "${EMAIL}"
