@@ -7,8 +7,9 @@ Visit this link and copy it's url [https://github.com/martinjirku/ubuntuDotfiles
 ```sh
 dotfilesUrl="REPLACE ME"
 wget $dotfilesUrl
-cp init.sh* init.sh
+mv init.sh* init.sh
 chmod +x init.sh
+./init.sh
 rm init.sh
 ```
 
