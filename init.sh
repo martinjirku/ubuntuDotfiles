@@ -1,4 +1,4 @@
-EMAIL="martinjirku@gmail.com"
+EMAIL="martinjirku@kistler.com"
 NAME="Martin MJ Jirku"
 DOT_REPOSITORY="git@github.com:martinjirku/ubuntuDotfiles.git"
 
